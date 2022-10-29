@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* tutorappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* tutorappTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-tutorapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-tutorapp.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-tutorapp-tutorappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-tutorapp-tutorappTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D0F9EEA1448C4D4CBBF2C497 /* SF-PRO-DISPLAY-BLACK-ITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = A7B55B7BA32E44C8B276C43A /* SF-PRO-DISPLAY-BLACK-ITALIC.OTF */; };
+		414242723CB944F694AABC9F /* SF-PRO-DISPLAY-BOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 8FF9EE87FA1D44ABB7AF522E /* SF-PRO-DISPLAY-BOLD.OTF */; };
+		7B2FEA67DBC34A53A7A2BB9E /* SF-PRO-DISPLAY-HEAVY-ITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 3840EA90EF2340AC8783B4F8 /* SF-PRO-DISPLAY-HEAVY-ITALIC.OTF */; };
+		DA2582D1947D40F2B4F2DF3D /* SF-PRO-DISPLAY-MEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 62073439372E43158927B856 /* SF-PRO-DISPLAY-MEDIUM.OTF */; };
+		94A8E9BD253940FA9E4E6928 /* SF-PRO-DISPLAY-REGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = B68530F4BC934A9BAEFFF6C4 /* SF-PRO-DISPLAY-REGULAR.OTF */; };
+		4591D1512AC146CB8ECC411F /* SF-PRO-DISPLAY-SEMI-BOLD-ITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 86DECAA7DB9745F48E85205B /* SF-PRO-DISPLAY-SEMI-BOLD-ITALIC.OTF */; };
+		CE5C2CBC8E4E4873AC6D4407 /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 73F1934C7A524931A013547D /* SFPRODISPLAYLIGHTITALIC.OTF */; };
+		50564E22A85A474FABDC39F5 /* SFPRODISPLAYTHIN-ITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = A254AEF32F854655AE3DA6B8 /* SFPRODISPLAYTHIN-ITALIC.OTF */; };
+		DEA54744252D49DC911C8726 /* SFPRODISPLAYULTRALIGHT-ITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 186729ECEF754D738146A682 /* SFPRODISPLAYULTRALIGHT-ITALIC.OTF */; };
+		5FBA3BD525344A599A4CD822 /* SF-Pro-Display-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF89875D3B04546A6E9791F /* SF-Pro-Display-Black.ttf */; };
+		B3130203DB304DCA80259975 /* SF-Pro-Display-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE7B28FAD9FD43F1B3A913FC /* SF-Pro-Display-BlackItalic.ttf */; };
+		1D8377095F5F401A95B19F50 /* SF-Pro-Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA399EF5FC74454C8B27E8F1 /* SF-Pro-Display-Bold.ttf */; };
+		96340D5298FC4026982629B2 /* SF-Pro-Display-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0CE50B5A76448E6982BA611 /* SF-Pro-Display-BoldItalic.ttf */; };
+		83492F39BD75443BA6B80174 /* SF-Pro-Display-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB2D5EB9F8E447CA8E91FBDC /* SF-Pro-Display-Heavy.ttf */; };
+		AFFA43E8956347989213B318 /* SF-Pro-Display-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5517CC2BB44E4A4483E83475 /* SF-Pro-Display-HeavyItalic.ttf */; };
+		33C23C19884C4EABBC71E292 /* SF-Pro-Display-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97552C7612D84CE09BD6EBDB /* SF-Pro-Display-Light.ttf */; };
+		9DC29ED363CE4BC781DE514E /* SF-Pro-Display-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1968990152A54B099ACBF863 /* SF-Pro-Display-LightItalic.ttf */; };
+		11F14315CC8A401F80E2F826 /* SF-Pro-Display-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DA36455A8A4499297744F86 /* SF-Pro-Display-Medium.ttf */; };
+		1C02E7075A1B4A77B5B2BE17 /* SF-Pro-Display-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 977EB29DE103401AAC824ECE /* SF-Pro-Display-MediumItalic.ttf */; };
+		F1566EFD3B79435189C8E2EA /* SF-Pro-Display-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C59D9FAB74E841CC98CBFDD5 /* SF-Pro-Display-Regular.ttf */; };
+		6DAB2B76F96448459472588F /* SF-Pro-Display-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEE962F5180D448FB8115906 /* SF-Pro-Display-RegularItalic.ttf */; };
+		827B44D4BF3143878F073CEF /* SF-Pro-Display-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BA75687C2A74057966416CA /* SF-Pro-Display-Semibold.ttf */; };
+		C6B241F5FAAD4761A4224AF7 /* SF-Pro-Display-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CC60D6108BD42EBBDE87502 /* SF-Pro-Display-SemiboldItalic.ttf */; };
+		9DA50EE57FE54A8EAE8FCB3C /* SF-Pro-Display-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F04417F469F24262BF358C29 /* SF-Pro-Display-Thin.ttf */; };
+		A063BE3E4A6E49BE89CEF456 /* SF-Pro-Display-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 172F00721B914A4EBDAD1570 /* SF-Pro-Display-ThinItalic.ttf */; };
+		3D809FA2465447FC80941ED7 /* SF-Pro-Display-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8591DACC3C8412A9384731C /* SF-Pro-Display-Ultralight.ttf */; };
+		40C96414461749C19DAF2901 /* SF-Pro-Display-UltralightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 656B74456D7D40A6B73895FD /* SF-Pro-Display-UltralightItalic.ttf */; };
+		982714F87FF74BB8AE159EFB /* sf-pro-text-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B7DD932C1DB413294C5A7A0 /* sf-pro-text-bold.ttf */; };
+		094AA81DCC094C0688324256 /* SF-Pro-Text-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8118E8F6C16E40C4808C25CB /* SF-Pro-Text-BoldItalic.ttf */; };
+		0336B397124F4C4EBD30BCF5 /* sf-pro-text-heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14CC024DA8704B9BB97649E0 /* sf-pro-text-heavy.ttf */; };
+		2334AF7448A5407A925BF8A3 /* SF-Pro-Text-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCE2C2088EDA459C9F26EC06 /* SF-Pro-Text-HeavyItalic.ttf */; };
+		82CC5B12955C4736BF8A0765 /* sf-pro-text-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56F1331B20724EEB838858CC /* sf-pro-text-light.ttf */; };
+		04BA15F5BABF4E9A8915DC89 /* SF-Pro-Text-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 083B986917C84236876FFA96 /* SF-Pro-Text-LightItalic.ttf */; };
+		60586D658FBF4D4A9DCDC57C /* sf-pro-text-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14112E4633F34C949E158C5C /* sf-pro-text-medium.ttf */; };
+		22B1411A117C453E9543736D /* SF-Pro-Text-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A22FE07EEF154629BE5BDCEA /* SF-Pro-Text-MediumItalic.ttf */; };
+		8D01775A5B2A45CDAF137A0F /* sf-pro-text-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16A67A4C794743AF9ED8854C /* sf-pro-text-regular.ttf */; };
+		EB59957EA13A41639494456E /* SF-Pro-Text-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2634EF9993C47639B3A9901 /* SF-Pro-Text-RegularItalic.ttf */; };
+		0510DE5313034323B2431334 /* sf-pro-text-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82F8F13AD3CB48C19CB37BC9 /* sf-pro-text-semibold.ttf */; };
+		632CAFE0B33540CBB927C6BA /* SF-Pro-Text-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65762D83161B4945A2D8F600 /* SF-Pro-Text-SemiboldItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = tutorapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* tutorappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tutorappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* tutorappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tutorappTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* tutorapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tutorapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = tutorapp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = tutorapp/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = tutorapp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = tutorapp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = tutorapp/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-tutorapp-tutorappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tutorapp-tutorappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-tutorapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tutorapp.debug.xcconfig"; path = "Target Support Files/Pods-tutorapp/Pods-tutorapp.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-tutorapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tutorapp.release.xcconfig"; path = "Target Support Files/Pods-tutorapp/Pods-tutorapp.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-tutorapp-tutorappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tutorapp-tutorappTests.debug.xcconfig"; path = "Target Support Files/Pods-tutorapp-tutorappTests/Pods-tutorapp-tutorappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-tutorapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tutorapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = tutorapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-tutorapp-tutorappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tutorapp-tutorappTests.release.xcconfig"; path = "Target Support Files/Pods-tutorapp-tutorappTests/Pods-tutorapp-tutorappTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		A7B55B7BA32E44C8B276C43A /* SF-PRO-DISPLAY-BLACK-ITALIC.OTF */ = {isa = PBXFileReference; name = "SF-PRO-DISPLAY-BLACK-ITALIC.OTF"; path = "../assets/fonts/SF-PRO-DISPLAY-BLACK-ITALIC.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8FF9EE87FA1D44ABB7AF522E /* SF-PRO-DISPLAY-BOLD.OTF */ = {isa = PBXFileReference; name = "SF-PRO-DISPLAY-BOLD.OTF"; path = "../assets/fonts/SF-PRO-DISPLAY-BOLD.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3840EA90EF2340AC8783B4F8 /* SF-PRO-DISPLAY-HEAVY-ITALIC.OTF */ = {isa = PBXFileReference; name = "SF-PRO-DISPLAY-HEAVY-ITALIC.OTF"; path = "../assets/fonts/SF-PRO-DISPLAY-HEAVY-ITALIC.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		62073439372E43158927B856 /* SF-PRO-DISPLAY-MEDIUM.OTF */ = {isa = PBXFileReference; name = "SF-PRO-DISPLAY-MEDIUM.OTF"; path = "../assets/fonts/SF-PRO-DISPLAY-MEDIUM.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B68530F4BC934A9BAEFFF6C4 /* SF-PRO-DISPLAY-REGULAR.OTF */ = {isa = PBXFileReference; name = "SF-PRO-DISPLAY-REGULAR.OTF"; path = "../assets/fonts/SF-PRO-DISPLAY-REGULAR.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		86DECAA7DB9745F48E85205B /* SF-PRO-DISPLAY-SEMI-BOLD-ITALIC.OTF */ = {isa = PBXFileReference; name = "SF-PRO-DISPLAY-SEMI-BOLD-ITALIC.OTF"; path = "../assets/fonts/SF-PRO-DISPLAY-SEMI-BOLD-ITALIC.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73F1934C7A524931A013547D /* SFPRODISPLAYLIGHTITALIC.OTF */ = {isa = PBXFileReference; name = "SFPRODISPLAYLIGHTITALIC.OTF"; path = "../assets/fonts/SFPRODISPLAYLIGHTITALIC.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A254AEF32F854655AE3DA6B8 /* SFPRODISPLAYTHIN-ITALIC.OTF */ = {isa = PBXFileReference; name = "SFPRODISPLAYTHIN-ITALIC.OTF"; path = "../assets/fonts/SFPRODISPLAYTHIN-ITALIC.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		186729ECEF754D738146A682 /* SFPRODISPLAYULTRALIGHT-ITALIC.OTF */ = {isa = PBXFileReference; name = "SFPRODISPLAYULTRALIGHT-ITALIC.OTF"; path = "../assets/fonts/SFPRODISPLAYULTRALIGHT-ITALIC.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7EF89875D3B04546A6E9791F /* SF-Pro-Display-Black.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Black.ttf"; path = "../assets/fonts/SF-Pro-Display-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FE7B28FAD9FD43F1B3A913FC /* SF-Pro-Display-BlackItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-BlackItalic.ttf"; path = "../assets/fonts/SF-Pro-Display-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DA399EF5FC74454C8B27E8F1 /* SF-Pro-Display-Bold.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Bold.ttf"; path = "../assets/fonts/SF-Pro-Display-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D0CE50B5A76448E6982BA611 /* SF-Pro-Display-BoldItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-BoldItalic.ttf"; path = "../assets/fonts/SF-Pro-Display-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB2D5EB9F8E447CA8E91FBDC /* SF-Pro-Display-Heavy.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Heavy.ttf"; path = "../assets/fonts/SF-Pro-Display-Heavy.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5517CC2BB44E4A4483E83475 /* SF-Pro-Display-HeavyItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-HeavyItalic.ttf"; path = "../assets/fonts/SF-Pro-Display-HeavyItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		97552C7612D84CE09BD6EBDB /* SF-Pro-Display-Light.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Light.ttf"; path = "../assets/fonts/SF-Pro-Display-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1968990152A54B099ACBF863 /* SF-Pro-Display-LightItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-LightItalic.ttf"; path = "../assets/fonts/SF-Pro-Display-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8DA36455A8A4499297744F86 /* SF-Pro-Display-Medium.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Medium.ttf"; path = "../assets/fonts/SF-Pro-Display-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		977EB29DE103401AAC824ECE /* SF-Pro-Display-MediumItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-MediumItalic.ttf"; path = "../assets/fonts/SF-Pro-Display-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C59D9FAB74E841CC98CBFDD5 /* SF-Pro-Display-Regular.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Regular.ttf"; path = "../assets/fonts/SF-Pro-Display-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FEE962F5180D448FB8115906 /* SF-Pro-Display-RegularItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-RegularItalic.ttf"; path = "../assets/fonts/SF-Pro-Display-RegularItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1BA75687C2A74057966416CA /* SF-Pro-Display-Semibold.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Semibold.ttf"; path = "../assets/fonts/SF-Pro-Display-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9CC60D6108BD42EBBDE87502 /* SF-Pro-Display-SemiboldItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-SemiboldItalic.ttf"; path = "../assets/fonts/SF-Pro-Display-SemiboldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F04417F469F24262BF358C29 /* SF-Pro-Display-Thin.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Thin.ttf"; path = "../assets/fonts/SF-Pro-Display-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		172F00721B914A4EBDAD1570 /* SF-Pro-Display-ThinItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-ThinItalic.ttf"; path = "../assets/fonts/SF-Pro-Display-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F8591DACC3C8412A9384731C /* SF-Pro-Display-Ultralight.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-Ultralight.ttf"; path = "../assets/fonts/SF-Pro-Display-Ultralight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		656B74456D7D40A6B73895FD /* SF-Pro-Display-UltralightItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Display-UltralightItalic.ttf"; path = "../assets/fonts/SF-Pro-Display-UltralightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9B7DD932C1DB413294C5A7A0 /* sf-pro-text-bold.ttf */ = {isa = PBXFileReference; name = "sf-pro-text-bold.ttf"; path = "../assets/fonts/sf-pro-text-bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8118E8F6C16E40C4808C25CB /* SF-Pro-Text-BoldItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Text-BoldItalic.ttf"; path = "../assets/fonts/SF-Pro-Text-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		14CC024DA8704B9BB97649E0 /* sf-pro-text-heavy.ttf */ = {isa = PBXFileReference; name = "sf-pro-text-heavy.ttf"; path = "../assets/fonts/sf-pro-text-heavy.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BCE2C2088EDA459C9F26EC06 /* SF-Pro-Text-HeavyItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Text-HeavyItalic.ttf"; path = "../assets/fonts/SF-Pro-Text-HeavyItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		56F1331B20724EEB838858CC /* sf-pro-text-light.ttf */ = {isa = PBXFileReference; name = "sf-pro-text-light.ttf"; path = "../assets/fonts/sf-pro-text-light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		083B986917C84236876FFA96 /* SF-Pro-Text-LightItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Text-LightItalic.ttf"; path = "../assets/fonts/SF-Pro-Text-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		14112E4633F34C949E158C5C /* sf-pro-text-medium.ttf */ = {isa = PBXFileReference; name = "sf-pro-text-medium.ttf"; path = "../assets/fonts/sf-pro-text-medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A22FE07EEF154629BE5BDCEA /* SF-Pro-Text-MediumItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Text-MediumItalic.ttf"; path = "../assets/fonts/SF-Pro-Text-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		16A67A4C794743AF9ED8854C /* sf-pro-text-regular.ttf */ = {isa = PBXFileReference; name = "sf-pro-text-regular.ttf"; path = "../assets/fonts/sf-pro-text-regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F2634EF9993C47639B3A9901 /* SF-Pro-Text-RegularItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Text-RegularItalic.ttf"; path = "../assets/fonts/SF-Pro-Text-RegularItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		82F8F13AD3CB48C19CB37BC9 /* sf-pro-text-semibold.ttf */ = {isa = PBXFileReference; name = "sf-pro-text-semibold.ttf"; path = "../assets/fonts/sf-pro-text-semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		65762D83161B4945A2D8F600 /* SF-Pro-Text-SemiboldItalic.ttf */ = {isa = PBXFileReference; name = "SF-Pro-Text-SemiboldItalic.ttf"; path = "../assets/fonts/SF-Pro-Text-SemiboldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-tutorapp-tutorappTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-tutorapp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* tutorappTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* tutorappTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = tutorappTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* tutorapp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = tutorapp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-tutorapp.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-tutorapp-tutorappTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* tutorapp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* tutorappTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D979E15BD38A456582712350 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* tutorapp.app */,
+				00E356EE1AD99517003FC87E /* tutorappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-tutorapp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-tutorapp.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-tutorapp-tutorappTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-tutorapp-tutorappTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D979E15BD38A456582712350 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				A7B55B7BA32E44C8B276C43A /* SF-PRO-DISPLAY-BLACK-ITALIC.OTF */,
+				8FF9EE87FA1D44ABB7AF522E /* SF-PRO-DISPLAY-BOLD.OTF */,
+				3840EA90EF2340AC8783B4F8 /* SF-PRO-DISPLAY-HEAVY-ITALIC.OTF */,
+				62073439372E43158927B856 /* SF-PRO-DISPLAY-MEDIUM.OTF */,
+				B68530F4BC934A9BAEFFF6C4 /* SF-PRO-DISPLAY-REGULAR.OTF */,
+				86DECAA7DB9745F48E85205B /* SF-PRO-DISPLAY-SEMI-BOLD-ITALIC.OTF */,
+				73F1934C7A524931A013547D /* SFPRODISPLAYLIGHTITALIC.OTF */,
+				A254AEF32F854655AE3DA6B8 /* SFPRODISPLAYTHIN-ITALIC.OTF */,
+				186729ECEF754D738146A682 /* SFPRODISPLAYULTRALIGHT-ITALIC.OTF */,
+				7EF89875D3B04546A6E9791F /* SF-Pro-Display-Black.ttf */,
+				FE7B28FAD9FD43F1B3A913FC /* SF-Pro-Display-BlackItalic.ttf */,
+				DA399EF5FC74454C8B27E8F1 /* SF-Pro-Display-Bold.ttf */,
+				D0CE50B5A76448E6982BA611 /* SF-Pro-Display-BoldItalic.ttf */,
+				BB2D5EB9F8E447CA8E91FBDC /* SF-Pro-Display-Heavy.ttf */,
+				5517CC2BB44E4A4483E83475 /* SF-Pro-Display-HeavyItalic.ttf */,
+				97552C7612D84CE09BD6EBDB /* SF-Pro-Display-Light.ttf */,
+				1968990152A54B099ACBF863 /* SF-Pro-Display-LightItalic.ttf */,
+				8DA36455A8A4499297744F86 /* SF-Pro-Display-Medium.ttf */,
+				977EB29DE103401AAC824ECE /* SF-Pro-Display-MediumItalic.ttf */,
+				C59D9FAB74E841CC98CBFDD5 /* SF-Pro-Display-Regular.ttf */,
+				FEE962F5180D448FB8115906 /* SF-Pro-Display-RegularItalic.ttf */,
+				1BA75687C2A74057966416CA /* SF-Pro-Display-Semibold.ttf */,
+				9CC60D6108BD42EBBDE87502 /* SF-Pro-Display-SemiboldItalic.ttf */,
+				F04417F469F24262BF358C29 /* SF-Pro-Display-Thin.ttf */,
+				172F00721B914A4EBDAD1570 /* SF-Pro-Display-ThinItalic.ttf */,
+				F8591DACC3C8412A9384731C /* SF-Pro-Display-Ultralight.ttf */,
+				656B74456D7D40A6B73895FD /* SF-Pro-Display-UltralightItalic.ttf */,
+				9B7DD932C1DB413294C5A7A0 /* sf-pro-text-bold.ttf */,
+				8118E8F6C16E40C4808C25CB /* SF-Pro-Text-BoldItalic.ttf */,
+				14CC024DA8704B9BB97649E0 /* sf-pro-text-heavy.ttf */,
+				BCE2C2088EDA459C9F26EC06 /* SF-Pro-Text-HeavyItalic.ttf */,
+				56F1331B20724EEB838858CC /* sf-pro-text-light.ttf */,
+				083B986917C84236876FFA96 /* SF-Pro-Text-LightItalic.ttf */,
+				14112E4633F34C949E158C5C /* sf-pro-text-medium.ttf */,
+				A22FE07EEF154629BE5BDCEA /* SF-Pro-Text-MediumItalic.ttf */,
+				16A67A4C794743AF9ED8854C /* sf-pro-text-regular.ttf */,
+				F2634EF9993C47639B3A9901 /* SF-Pro-Text-RegularItalic.ttf */,
+				82F8F13AD3CB48C19CB37BC9 /* sf-pro-text-semibold.ttf */,
+				65762D83161B4945A2D8F600 /* SF-Pro-Text-SemiboldItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* tutorappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "tutorappTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = tutorappTests;
+			productName = tutorappTests;
+			productReference = 00E356EE1AD99517003FC87E /* tutorappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* tutorapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "tutorapp" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tutorapp;
+			productName = tutorapp;
+			productReference = 13B07F961A680F5B00A75B9A /* tutorapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "tutorapp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* tutorapp */,
+				00E356ED1AD99517003FC87E /* tutorappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D0F9EEA1448C4D4CBBF2C497 /* SF-PRO-DISPLAY-BLACK-ITALIC.OTF in Resources */,
+				414242723CB944F694AABC9F /* SF-PRO-DISPLAY-BOLD.OTF in Resources */,
+				7B2FEA67DBC34A53A7A2BB9E /* SF-PRO-DISPLAY-HEAVY-ITALIC.OTF in Resources */,
+				DA2582D1947D40F2B4F2DF3D /* SF-PRO-DISPLAY-MEDIUM.OTF in Resources */,
+				94A8E9BD253940FA9E4E6928 /* SF-PRO-DISPLAY-REGULAR.OTF in Resources */,
+				4591D1512AC146CB8ECC411F /* SF-PRO-DISPLAY-SEMI-BOLD-ITALIC.OTF in Resources */,
+				CE5C2CBC8E4E4873AC6D4407 /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */,
+				50564E22A85A474FABDC39F5 /* SFPRODISPLAYTHIN-ITALIC.OTF in Resources */,
+				DEA54744252D49DC911C8726 /* SFPRODISPLAYULTRALIGHT-ITALIC.OTF in Resources */,
+				5FBA3BD525344A599A4CD822 /* SF-Pro-Display-Black.ttf in Resources */,
+				B3130203DB304DCA80259975 /* SF-Pro-Display-BlackItalic.ttf in Resources */,
+				1D8377095F5F401A95B19F50 /* SF-Pro-Display-Bold.ttf in Resources */,
+				96340D5298FC4026982629B2 /* SF-Pro-Display-BoldItalic.ttf in Resources */,
+				83492F39BD75443BA6B80174 /* SF-Pro-Display-Heavy.ttf in Resources */,
+				AFFA43E8956347989213B318 /* SF-Pro-Display-HeavyItalic.ttf in Resources */,
+				33C23C19884C4EABBC71E292 /* SF-Pro-Display-Light.ttf in Resources */,
+				9DC29ED363CE4BC781DE514E /* SF-Pro-Display-LightItalic.ttf in Resources */,
+				11F14315CC8A401F80E2F826 /* SF-Pro-Display-Medium.ttf in Resources */,
+				1C02E7075A1B4A77B5B2BE17 /* SF-Pro-Display-MediumItalic.ttf in Resources */,
+				F1566EFD3B79435189C8E2EA /* SF-Pro-Display-Regular.ttf in Resources */,
+				6DAB2B76F96448459472588F /* SF-Pro-Display-RegularItalic.ttf in Resources */,
+				827B44D4BF3143878F073CEF /* SF-Pro-Display-Semibold.ttf in Resources */,
+				C6B241F5FAAD4761A4224AF7 /* SF-Pro-Display-SemiboldItalic.ttf in Resources */,
+				9DA50EE57FE54A8EAE8FCB3C /* SF-Pro-Display-Thin.ttf in Resources */,
+				A063BE3E4A6E49BE89CEF456 /* SF-Pro-Display-ThinItalic.ttf in Resources */,
+				3D809FA2465447FC80941ED7 /* SF-Pro-Display-Ultralight.ttf in Resources */,
+				40C96414461749C19DAF2901 /* SF-Pro-Display-UltralightItalic.ttf in Resources */,
+				982714F87FF74BB8AE159EFB /* sf-pro-text-bold.ttf in Resources */,
+				094AA81DCC094C0688324256 /* SF-Pro-Text-BoldItalic.ttf in Resources */,
+				0336B397124F4C4EBD30BCF5 /* sf-pro-text-heavy.ttf in Resources */,
+				2334AF7448A5407A925BF8A3 /* SF-Pro-Text-HeavyItalic.ttf in Resources */,
+				82CC5B12955C4736BF8A0765 /* sf-pro-text-light.ttf in Resources */,
+				04BA15F5BABF4E9A8915DC89 /* SF-Pro-Text-LightItalic.ttf in Resources */,
+				60586D658FBF4D4A9DCDC57C /* sf-pro-text-medium.ttf in Resources */,
+				22B1411A117C453E9543736D /* SF-Pro-Text-MediumItalic.ttf in Resources */,
+				8D01775A5B2A45CDAF137A0F /* sf-pro-text-regular.ttf in Resources */,
+				EB59957EA13A41639494456E /* SF-Pro-Text-RegularItalic.ttf in Resources */,
+				0510DE5313034323B2431334 /* sf-pro-text-semibold.ttf in Resources */,
+				632CAFE0B33540CBB927C6BA /* SF-Pro-Text-SemiboldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tutorapp/Pods-tutorapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tutorapp/Pods-tutorapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tutorapp/Pods-tutorapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tutorapp-tutorappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tutorapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tutorapp-tutorappTests/Pods-tutorapp-tutorappTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tutorapp-tutorappTests/Pods-tutorapp-tutorappTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tutorapp-tutorappTests/Pods-tutorapp-tutorappTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tutorapp/Pods-tutorapp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tutorapp/Pods-tutorapp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tutorapp/Pods-tutorapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tutorapp-tutorappTests/Pods-tutorapp-tutorappTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tutorapp-tutorappTests/Pods-tutorapp-tutorappTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tutorapp-tutorappTests/Pods-tutorapp-tutorappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* tutorappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* tutorapp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-tutorapp-tutorappTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tutorappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tutorapp.app/tutorapp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-tutorapp-tutorappTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = tutorappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tutorapp.app/tutorapp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-tutorapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = tutorapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = tutorapp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-tutorapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = tutorapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = tutorapp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "tutorappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "tutorapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "tutorapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
