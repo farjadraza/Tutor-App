@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import {
     SafeAreaView,
     ScrollView,
@@ -12,8 +12,15 @@ import {
     TextInput,
     TouchableOpacity
 } from 'react-native';
+import Icon from 'react-native-vector-icons/Entypo';
+import { useTogglePasswordVisibility } from '../Component/UseTogglePasswordVisibility'
 
 const SignUp = ({navigation}) => {
+
+    const { passwordVisibility, rightIcon, handlePasswordVisibility,passwordVisibilityConfirm,rightIconConfirm,handlePasswordVisibilityConfirm } =
+    useTogglePasswordVisibility();
+const [password, setPassword] = useState('');
+
     return (
         <View style={{ width: '100%', height: '100%', backgroundColor: 'white' }}>
             <ScrollView >
@@ -34,7 +41,7 @@ const SignUp = ({navigation}) => {
                                 Full Name
                             </Text>
                             <View style={{ justifyContent: 'center', alignItems: 'center', flexDirection: 'row', }}>
-                                <TextInput style={{ width: '100%', height: 40, backgroundColor: '#2E2169', marginTop: 5, borderRadius: 7, paddingLeft: 10 }}
+                                <TextInput style={{ width: '100%', height: 40, backgroundColor: '#2E2169', marginTop: 5, borderRadius: 7, paddingLeft: 10, color:'white' }}
                                 // onChangeText={newText => setEmail(newText)}
                                 // defaultValue={email}
                                 >
@@ -49,7 +56,7 @@ const SignUp = ({navigation}) => {
                                 Phone
                             </Text>
                             <View style={{ justifyContent: 'center', alignItems: 'center', flexDirection: 'row', }}>
-                                <TextInput style={{ width: '100%', height: 40, backgroundColor: '#2E2169', marginTop: 5, borderRadius: 7, paddingLeft: 10 }}
+                                <TextInput style={{ width: '100%', height: 40, backgroundColor: '#2E2169', marginTop: 5, borderRadius: 7, paddingLeft: 10, color:'white' }}
                                 keyboardType='number-pad'
                                 // onChangeText={newText => setEmail(newText)}
                                 // defaultValue={email}
@@ -65,7 +72,7 @@ const SignUp = ({navigation}) => {
                                 Email
                             </Text>
                             <View style={{ justifyContent: 'center', alignItems: 'center', flexDirection: 'row', }}>
-                                <TextInput style={{ width: '100%', height: 40, backgroundColor: '#2E2169', marginTop: 5, borderRadius: 7, paddingLeft: 10 }}
+                                <TextInput style={{ width: '100%', height: 40, backgroundColor: '#2E2169', marginTop: 5, borderRadius: 7, paddingLeft: 10, color:'white' }}
                                 // onChangeText={newText => setEmail(newText)}
                                 // defaultValue={email}
                                 >
@@ -80,17 +87,18 @@ const SignUp = ({navigation}) => {
                                 Password
                             </Text>
                             <View style={{ justifyContent: 'center', alignItems: 'center', flexDirection: 'row', width: '100%', backgroundColor: '#2E2169', borderRadius: 7, marginTop: 5 }}>
-                                <TextInput style={{ width: '90%', height: 40, marginTop: 5, paddingLeft: 10 }}
-                                    secureTextEntry={true}
+                                <TextInput style={{ width: '90%', height: 40, marginTop: 5, paddingLeft: 10, color:'white' }}
+                                      secureTextEntry={passwordVisibility}
                                 // onChangeText={newText => setEmail(newText)}
                                 // defaultValue={email}
                                 >
                                 </TextInput>
 
                                 <View style={{ width: '10%', alignItems: 'center', marginRight: 5 }}>
-                                    <TouchableOpacity>
-                                        <Image source={require('../assets/Vector(12).png')} style={{ width: 20, height: 20, resizeMode: 'contain' }} >
-                                        </Image>
+                                    <TouchableOpacity onPress={handlePasswordVisibility}>
+                                        {/* <Image source={require('../assets/Vector(12).png')} style={{ width: 20, height: 20, resizeMode: 'contain' }} >
+                                        </Image> */}
+                                        <Icon name={rightIcon} size={22} color="#E7502B" />
                                     </TouchableOpacity>
                                 </View>
                             </View>
@@ -101,17 +109,18 @@ const SignUp = ({navigation}) => {
                                 Confirm Password
                             </Text>
                             <View style={{ justifyContent: 'center', alignItems: 'center', flexDirection: 'row', width: '100%', backgroundColor: '#2E2169', borderRadius: 7, marginTop: 5 }}>
-                                <TextInput style={{ width: '90%', height: 40, marginTop: 5, paddingLeft: 10 }}
-                                    secureTextEntry={true}
+                                <TextInput style={{ width: '90%', height: 40, marginTop: 5, paddingLeft: 10, color:'white' }}
+                                   secureTextEntry={passwordVisibilityConfirm}
                                 // onChangeText={newText => setEmail(newText)}
                                 // defaultValue={email}
                                 >
                                 </TextInput>
 
                                 <View style={{ width: '10%', alignItems: 'center', marginRight: 5 }}>
-                                    <TouchableOpacity>
-                                        <Image source={require('../assets/Vector(12).png')} style={{ width: 20, height: 20, resizeMode: 'contain' }} >
-                                        </Image>
+                                    <TouchableOpacity onPress={handlePasswordVisibilityConfirm}>
+                                        {/* <Image source={require('../assets/Vector(12).png')} style={{ width: 20, height: 20, resizeMode: 'contain' }} >
+                                        </Image> */}
+                                         <Icon name={rightIconConfirm} size={22} color="#E7502B" />
                                     </TouchableOpacity>
                                 </View>
                             </View>
@@ -135,16 +144,16 @@ const SignUp = ({navigation}) => {
                         </View>
 
                         <View style={{ width: '100%', flexDirection: 'row', marginTop: 55 }}>
-                            <View style={{ width: '35%', borderTopWidth: 1, borderTopColor: '#AAAAAA' }}>
+                            <View style={{ width: '37%', borderTopWidth: 1, borderTopColor: '#AAAAAA' }}>
 
                             </View>
 
-                            <View style={{ width: '30%', }}>
-                                <Text style={{ fontSize: 25, textAlign: 'center', marginTop: -13, color: '#AAAAAA' }}>
+                            <View style={{ width: '26%', }}>
+                                <Text style={{ fontSize: 25, textAlign: 'center', marginTop: -10, color: '#AAAAAA' }}>
                                     or with
                                 </Text>
                             </View>
-                            <View style={{ width: '35%', borderTopWidth: 1, borderTopColor: '#AAAAAA' }}>
+                            <View style={{ width: '37%', borderTopWidth: 1, borderTopColor: '#AAAAAA' }}>
 
                             </View>
                         </View>
