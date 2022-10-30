@@ -25,7 +25,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import Splash from './Screens/Splash';
+import SplashNew from './Screens/SplashNew';
 import SearchForBest from './Screens/SearchForBest';
 import OneToOne from './Screens/OneToOne'
 import Examination from './Screens/Examination';
@@ -37,7 +37,7 @@ import Home from './Screens/Home';
 const App = () => {
   return (
    
-      //  <Splash/>
+      //  <SplashNew/>
       // <SearchForBest/>
       // <OneToOne/>
       // <Examination/>

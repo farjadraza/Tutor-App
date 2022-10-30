@@ -12,6 +12,8 @@ import {
     TextInput,
     TouchableOpacity
 } from 'react-native';
+import { withSpring } from 'react-native-reanimated';
+import { widthPercentageToDP as wp } from 'react-native-responsive-screen'
 
 const Home = ({ navigation }) => {
     return (
@@ -56,15 +58,15 @@ const Home = ({ navigation }) => {
 
                     <View style={{ width: '100%', height: 160, flexDirection: 'row', marginTop: 20 }}>
                         <View style={{ width: '52%', height: 130, backgroundColor: '#0199DA', marginTop: 'auto', marginBottom: 0, justifyContent: 'center', borderBottomLeftRadius: 7, borderTopLeftRadius: 7 }}>
-                            <Text style={{ fontSize: 25, fontWeight: 'bold', marginLeft: 10, }}>
+                            <Text style={{ fontSize: 25, fontWeight: 'bold', marginLeft: 10, color: 'white' }}>
                                 Best Tutor in your town
                             </Text>
-                            <Text style={{ fontSize: 13, marginTop: 10, marginLeft: 10 }}>
+                            <Text style={{ fontSize: 13, marginTop: 10, marginLeft: 10, color: 'white' }}>
                                 Scarlet is Well known English teacher with 2 years of experience
                             </Text>
                         </View>
                         <View style={{ width: '48%', height: 130, backgroundColor: '#0199DA', marginTop: 'auto', marginBottom: 0, borderBottomRightRadius: 7, borderTopRightRadius: 7 }}>
-                            <Image source={require('../assets/lady.png')} style={{ width: 150, height: 192, resizeMode: 'contain', marginLeft: 'auto', marginRight: 0, marginTop: -45 }} />
+                            <Image source={require('../assets/lady.png')} style={{ width: 150, height: 192, resizeMode: 'contain', marginLeft: 'auto', marginRight: 0, marginTop: -48 }} />
                         </View>
 
                     </View>
@@ -148,86 +150,95 @@ const Home = ({ navigation }) => {
                         </Text>
                     </View>
 
-                    <View style={{ marginTop: 10, flexDirection: 'row', alignSelf: 'center' }}>
-                        <View style={{ width: '43%', height: 160, backgroundColor: 'white', marginRight: 10, borderRadius: 7 }}>
-                            <View style={{ width: '100%', height: 100, backgroundColor: 'pink' }}>
-                                <Image source={require('../assets/Rectangle49.png')} style={{ width: 150, height: 150, resizeMode: 'contain', alignSelf: 'center', marginTop: -25 }} />
+                    <View style={{ marginTop: 10, flexDirection: 'row', justifyContent: 'space-between' }}>
+                        <View style={{ width: '43%', height: 160, backgroundColor: 'white', borderRadius: 7, }}>
+                            <TouchableOpacity>
+                                <View style={{ width: '100%', height: 100, backgroundColor: 'pink' }}>
+                                    <Image source={require('../assets/Rectangle49.png')} style={{ width: 150, height: 150, resizeMode: 'contain', alignSelf: 'center', marginTop: -25 }} />
 
-                            </View>
-                            <View style={{ width: '100%', height: 30, marginLeft: 10, marginTop: 10 }}>
-                                <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'black' }}>
-                                    Pre School
-                                </Text>
-                                <Text style={{ fontSize: 13, color: 'black' }}>
-                                    108 teachers available
-                                </Text>
-                            </View>
+                                </View>
+                                <View style={{ width: '100%', height: 30, marginLeft: 10, marginTop: 10 }}>
+                                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black' }}>
+                                        Pre School
+                                    </Text>
+                                    <Text style={{ fontSize: 13, color: 'black' }}>
+                                        108 teachers available
+                                    </Text>
+                                </View>
+                            </TouchableOpacity>
                         </View>
 
 
-                        <View style={{ width: '43%', height: 160, backgroundColor: 'white', marginRight: 10, borderRadius: 7 }}>
-                            <View style={{ width: '100%', height: 100, backgroundColor: 'pink' }}>
-                                <Image source={require('../assets/Rectangle49(1).png')} style={{ width: 150, height: 150, resizeMode: 'contain', alignSelf: 'center', marginTop: -25 }} />
+                        <View style={{ width: '43%', height: 160, backgroundColor: 'white', borderRadius: 7 }}>
+                            <TouchableOpacity>
+                                <View style={{ width: '100%', height: 100, backgroundColor: 'pink' }}>
+                                    <Image source={require('../assets/Rectangle49(1).png')} style={{ width: 150, height: 150, resizeMode: 'contain', alignSelf: 'center', marginTop: -25 }} />
 
-                            </View>
-                            <View style={{ width: '100%', height: 30, marginLeft: 10, marginTop: 10 }}>
-                                <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'black' }}>
-                                    Primary School
-                                </Text>
-                                <Text style={{ fontSize: 13, color: 'black' }}>
-                                    108 teachers available
-                                </Text>
-                            </View>
+                                </View>
+                                <View style={{ width: '100%', height: 30, marginLeft: 10, marginTop: 10 }}>
+                                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black' }}>
+                                        Primary School
+                                    </Text>
+                                    <Text style={{ fontSize: 13, color: 'black' }}>
+                                        108 teachers available
+                                    </Text>
+                                </View>
+                            </TouchableOpacity>
                         </View>
                     </View>
 
-                    <View style={{ marginTop: 20, flexDirection: 'row', alignSelf: 'center', marginBottom: 20 }}>
+                    <View style={{ marginTop: 20, flexDirection: 'row', marginBottom: 20, justifyContent: 'space-between' }}>
                         <View style={{ width: '43%', height: 160, backgroundColor: 'white', marginRight: 10, borderRadius: 7 }}>
-                            <View style={{ width: '100%', height: 100, backgroundColor: 'pink' }}>
-                                <Image source={require('../assets/Rectangle49(2).png')} style={{ width: 150, height: 150, resizeMode: 'contain', alignSelf: 'center', marginTop: -25 }} />
+                            <TouchableOpacity>
 
-                            </View>
-                            <View style={{ width: '100%', height: 30, marginLeft: 10, marginTop: 10 }}>
-                                <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'black' }}>
-                                    Secondary School
-                                </Text>
-                                <Text style={{ fontSize: 13, color: 'black' }}>
-                                    108 teachers available
-                                </Text>
-                            </View>
+                                <View style={{ width: '100%', height: 100, backgroundColor: 'pink' }}>
+                                    <Image source={require('../assets/Rectangle49(2).png')} style={{ width: 150, height: 150, resizeMode: 'contain', alignSelf: 'center', marginTop: -25 }} />
+
+                                </View>
+                                <View style={{ width: '100%', height: 30, marginLeft: 10, marginTop: 10 }}>
+                                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black' }}>
+                                        Secondary School
+                                    </Text>
+                                    <Text style={{ fontSize: 13, color: 'black' }}>
+                                        108 teachers available
+                                    </Text>
+                                </View>
+                            </TouchableOpacity>
                         </View>
 
 
-                        <View style={{ width: '43%', height: 160, backgroundColor: 'white', marginRight: 10, borderRadius: 7 }}>
-                            <View style={{ width: '100%', height: 100, backgroundColor: 'pink' }}>
-                                <Image source={require('../assets/Rectangle49(3).png')} style={{ width: 150, height: 150, resizeMode: 'contain', alignSelf: 'center', marginTop: -25 }} />
+                        <View style={{ width: '43%', height: 160, backgroundColor: 'white', borderRadius: 7, }}>
+                            <TouchableOpacity>
+                                <View style={{ width: '100%', height: 100, backgroundColor: 'pink' }}>
+                                    <Image source={require('../assets/Rectangle49(3).png')} style={{ width: 150, height: 150, resizeMode: 'contain', alignSelf: 'center', marginTop: -25 }} />
 
-                            </View>
-                            <View style={{ width: '100%', height: 30, marginLeft: 10, marginTop: 10 }}>
-                                <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'black' }}>
-                                    University
-                                </Text>
-                                <Text style={{ fontSize: 13, color: 'black' }}>
-                                    108 teachers available
-                                </Text>
-                            </View>
+                                </View>
+                                <View style={{ width: '100%', height: 30, marginLeft: 10, marginTop: 10 }}>
+                                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black' }}>
+                                        University
+                                    </Text>
+                                    <Text style={{ fontSize: 13, color: 'black' }}>
+                                        108 teachers available
+                                    </Text>
+                                </View>
+                            </TouchableOpacity>
                         </View>
                     </View>
                 </View>
             </ScrollView>
             <View style={{ width: '100%', height: 50, backgroundColor: '#18095A', borderTopRightRadius: 20, borderTopLeftRadius: 20 }}>
-                <View style={{ width: '90%', height: 50, alignSelf: 'center',flexDirection:'row' }}>
-                    <View style={{ width: '25%', height: 50,justifyContent:'center' }}>
+                <View style={{ width: '90%', height: 50, alignSelf: 'center', flexDirection: 'row' }}>
+                    <View style={{ width: '25%', height: 50, justifyContent: 'center' }}>
                         <Image source={require('../assets/Vector(7).png')} style={{ width: 25, height: 25, resizeMode: 'contain', alignSelf: 'center', }} />
                     </View>
-                    <View style={{ width: '25%', height: 50,justifyContent:'center' }}>
-                        <Image source={require('../assets/search.png')} style={{ width: 25, height: 25, resizeMode: 'contain', alignSelf: 'center' ,}} />
+                    <View style={{ width: '25%', height: 50, justifyContent: 'center' }}>
+                        <Image source={require('../assets/search.png')} style={{ width: 25, height: 25, resizeMode: 'contain', alignSelf: 'center', }} />
                     </View>
-                    <View style={{ width: '25%', height: 50,justifyContent:'center' }}>
-                        <Image source={require('../assets/Vector(8).png')} style={{ width: 25, height: 25, resizeMode: 'contain', alignSelf: 'center' ,}} />
+                    <View style={{ width: '25%', height: 50, justifyContent: 'center' }}>
+                        <Image source={require('../assets/Vector(8).png')} style={{ width: 25, height: 25, resizeMode: 'contain', alignSelf: 'center', }} />
                     </View>
-                    <View style={{ width: '25%', height: 50,justifyContent:'center' }}>
-                        <Image source={require('../assets/Vector(9).png')} style={{ width: 25, height: 25, resizeMode: 'contain', alignSelf: 'center' ,}} />
+                    <View style={{ width: '25%', height: 50, justifyContent: 'center' }}>
+                        <Image source={require('../assets/Vector(9).png')} style={{ width: 25, height: 25, resizeMode: 'contain', alignSelf: 'center', }} />
                     </View>
                 </View>
             </View>

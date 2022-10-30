@@ -20,7 +20,7 @@ const OneToOne = ({navigation}) => {
                 <Image source={require('../assets/pana.png')} style={{ width: 350, height: 350, resizeMode: 'contain', alignSelf: 'center' }} />
             </View>
             <View style={{ width: '100%', height: '45%', backgroundColor: '#18095A', borderTopRightRadius: 35, borderTopLeftRadius: 35, justifyContent: 'center' }}>
-                <View style={{ width: '85%', alignSelf: 'center', height: '85%', alignContent: 'center' }}>
+                <View style={{ width: '85%', alignSelf: 'center', height: '85%', alignContent: 'center',marginBottom:'5%', }}>
                     <View style={{ alignSelf: 'center', width: '90%', marginTop:20 }}>
                         <Text style={{ textAlign: 'center', color: 'white', fontSize: 35, fontWeight:'bold', }}>
                         One-to-One Personalized Tution
@@ -34,7 +34,7 @@ const OneToOne = ({navigation}) => {
 
                     </View>
 
-                    <View style={{ width: '100%', height: '10%', flexDirection: 'row', marginTop: 50 }}>
+                    <View style={{ width: '100%', height: '10%', flexDirection: 'row', marginTop:'auto',marginBottom:0 }}>
                         <View style={{ width: '20%', height: '100%',justifyContent:'center' }}>
                             <TouchableOpacity onPress={()=>navigation.navigate('Login')}>
                                 <Text style={{textAlign:'center',color:'white'}}>

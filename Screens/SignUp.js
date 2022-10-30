@@ -30,7 +30,7 @@ const SignUp = ({navigation}) => {
                         </Text>
 
                         <View style={{ marginTop: 25 }}>
-                            <Text style={{ fontSize: 20, marginLeft: 5 }}>
+                            <Text style={{ fontSize: 20, marginLeft: 5,color:'white' }}>
                                 Full Name
                             </Text>
                             <View style={{ justifyContent: 'center', alignItems: 'center', flexDirection: 'row', }}>
@@ -45,7 +45,7 @@ const SignUp = ({navigation}) => {
                         </View>
 
                         <View style={{ marginTop: 25 }}>
-                            <Text style={{ fontSize: 20, marginLeft: 5 }}>
+                            <Text style={{ fontSize: 20, marginLeft: 5,color:'white' }}>
                                 Phone
                             </Text>
                             <View style={{ justifyContent: 'center', alignItems: 'center', flexDirection: 'row', }}>
@@ -61,7 +61,7 @@ const SignUp = ({navigation}) => {
                         </View>
 
                         <View style={{ marginTop: 25 }}>
-                            <Text style={{ fontSize: 20, marginLeft: 5 }}>
+                            <Text style={{ fontSize: 20, marginLeft: 5,color:'white' }}>
                                 Email
                             </Text>
                             <View style={{ justifyContent: 'center', alignItems: 'center', flexDirection: 'row', }}>
@@ -76,7 +76,7 @@ const SignUp = ({navigation}) => {
                         </View>
 
                         <View style={{ marginTop: 20 }}>
-                            <Text style={{ fontSize: 20, marginLeft: 5 }}>
+                            <Text style={{ fontSize: 20, marginLeft: 5,color:'white' }}>
                                 Password
                             </Text>
                             <View style={{ justifyContent: 'center', alignItems: 'center', flexDirection: 'row', width: '100%', backgroundColor: '#2E2169', borderRadius: 7, marginTop: 5 }}>
@@ -97,7 +97,7 @@ const SignUp = ({navigation}) => {
                         </View>
 
                         <View style={{ marginTop: 20 }}>
-                            <Text style={{ fontSize: 20, marginLeft: 5 }}>
+                            <Text style={{ fontSize: 20, marginLeft: 5,color:'white' }}>
                                 Confirm Password
                             </Text>
                             <View style={{ justifyContent: 'center', alignItems: 'center', flexDirection: 'row', width: '100%', backgroundColor: '#2E2169', borderRadius: 7, marginTop: 5 }}>
@@ -118,7 +118,7 @@ const SignUp = ({navigation}) => {
                         </View>
 
                         <TouchableOpacity style={{ width: '100%', height: 45, borderRadius: 7, backgroundColor: '#ED5126', justifyContent: 'center', marginTop: 40 }} >
-                            <Text style={{ fontSize: 20, textAlign: 'center' }}>
+                            <Text style={{ fontSize: 20, textAlign: 'center',color:'white' }}>
                                 Submit
                             </Text>
                         </TouchableOpacity>

@@ -12,17 +12,9 @@ import {
     TextInput,
     TouchableOpacity
 } from 'react-native';
-import Splash from './Splash';
+import SplashNew from './SplashNew';
 
 const SearchForBest = ({navigation}) => {
-
-    setTimeout(() => {
-        <Splash/>
-        }, 3000);
-
-        useEffect(() => {
-            <Splash/>
-          },[3000])
 
     return (
         <View style={{ width: '100%', height: '100%', backgroundColor: 'white' }}>
@@ -30,9 +22,9 @@ const SearchForBest = ({navigation}) => {
                 <Image source={require('../assets/Group1.png')} style={{ width: 300, height: 300, resizeMode: 'contain', alignSelf: 'center' }} />
             </View>
             <View style={{ width: '100%', height: '45%', backgroundColor: '#18095A', borderTopRightRadius: 35, borderTopLeftRadius: 35, justifyContent: 'center' }}>
-                <View style={{ width: '85%', alignSelf: 'center', height: '85%', alignContent: 'center' }}>
+                <View style={{ width: '85%', alignSelf: 'center', height: '85%', alignContent: 'center',marginBottom:'5%' }}>
                     <View style={{ alignSelf: 'center', width: '80%', marginTop:20 }}>
-                        <Text style={{ textAlign: 'center', color: 'white', fontSize: 35, fontWeight:'bold' }}>
+                        <Text style={{ textAlign: 'center', color: 'white', fontSize: 35, fontWeight:'bold', fontFamily:'' }}>
                             Search for Best Tutor near you
                         </Text>
                     </View>
@@ -44,7 +36,7 @@ const SearchForBest = ({navigation}) => {
 
                     </View>
 
-                    <View style={{ width: '100%', height: '10%', flexDirection: 'row', marginTop: 50 }}>
+                    <View style={{ width: '100%', height: '10%', flexDirection: 'row', marginTop:'auto', marginBottom:0 }}>
                         <View style={{ width: '20%', height: '100%',justifyContent:'center' }}>
                             <TouchableOpacity onPress={()=>navigation.navigate('Login')}>
                                 <Text style={{textAlign:'center',color:'white'}}>
