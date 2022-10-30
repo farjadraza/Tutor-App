@@ -21,14 +21,14 @@ const Login = ({ navigation }) => {
   const [password, setPassword] = useState('');
 
     return (
-        <ScrollView style={{ width: '100%', height: '100%', backgroundColor: 'grey' }}>
-            <View style={{ width: '100%', height: '100%', backgroundColor: 'white' }}>
-                <View style={{ width: '100%', height: '20%', backgroundColor: 'white' }}>
+        <View style={{ width: '100%',height:'100%',backgroundColor:'#18095A' }}>
+                <ScrollView >
+                <View style={{ width: '100%', height:'25%',backgroundColor:'white' }}>
                     <Image source={require('../assets/Group131.png')} style={{ width: 200, height: 125, resizeMode: 'contain', alignSelf: 'center' }} />
                 </View>
-                <View style={{ width: '100%', height: 600, backgroundColor: '#18095A', borderTopRightRadius: 35, borderTopLeftRadius: 35, justifyContent: 'center', alignItems: 'center' }}>
-                    <View style={{ width: '85%', height: '90%', }}>
-                        <Text style={{ fontSize: 35, fontWeight: 'bold', color: 'white' }}>
+                <View style={{ width: '100%', height:'80%', backgroundColor: '#18095A', borderTopRightRadius: 35, borderTopLeftRadius: 35, justifyContent: 'center', alignItems: 'center',marginBottom:'auto',overflow:'hidden',marginTop:-40 }}>
+                    <View style={{ width: '85%', height: '100%' }}>
+                        <Text style={{ fontSize: 35, fontWeight: 'bold', color: 'white',marginTop:15 }}>
                             Sign in
                         </Text>
                         <Text style={{ fontSize: 15, color: '#AAAAAA', marginTop: 5 }}>
@@ -112,7 +112,7 @@ const Login = ({ navigation }) => {
                             </View>
                         </View>
 
-                        <View style={{ flexDirection: 'row', justifyContent: 'center', marginTop: 20 }}>
+                        <View style={{ flexDirection: 'row', justifyContent: 'center', marginTop: 20,paddingBottom:60 }}>
                             <TouchableOpacity>
                                 <View style={{ width: 50, height: 50, borderRadius: 30, borderColor: '#AAAAAA', borderWidth: 1, justifyContent: 'center' }}>
                                     <Image source={require('../assets/Vector(10).png')} style={{ width: 30, height: 30, resizeMode: 'contain', alignSelf: 'center' }} />
@@ -131,8 +131,8 @@ const Login = ({ navigation }) => {
 
 
                 </View>
-            </View>
         </ScrollView>
+            </View>
     )
 }
 export default Login

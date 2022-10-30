@@ -153,7 +153,7 @@ const Home = ({ navigation }) => {
                     <View style={{ marginTop: 10, flexDirection: 'row', justifyContent: 'space-between' }}>
                         <View style={{ width: '43%', height: 160, backgroundColor: 'white', borderRadius: 7, }}>
                             <TouchableOpacity>
-                                <View style={{ width: '100%', height: 100, backgroundColor: 'pink' }}>
+                                <View style={{ width: '100%', height: 100, }}>
                                     <Image source={require('../assets/Rectangle49.png')} style={{ width: 150, height: 150, resizeMode: 'contain', alignSelf: 'center', marginTop: -25 }} />
 
                                 </View>
@@ -171,7 +171,7 @@ const Home = ({ navigation }) => {
 
                         <View style={{ width: '43%', height: 160, backgroundColor: 'white', borderRadius: 7 }}>
                             <TouchableOpacity>
-                                <View style={{ width: '100%', height: 100, backgroundColor: 'pink' }}>
+                                <View style={{ width: '100%', height: 100,  }}>
                                     <Image source={require('../assets/Rectangle49(1).png')} style={{ width: 150, height: 150, resizeMode: 'contain', alignSelf: 'center', marginTop: -25 }} />
 
                                 </View>
@@ -191,7 +191,7 @@ const Home = ({ navigation }) => {
                         <View style={{ width: '43%', height: 160, backgroundColor: 'white', marginRight: 10, borderRadius: 7 }}>
                             <TouchableOpacity>
 
-                                <View style={{ width: '100%', height: 100, backgroundColor: 'pink' }}>
+                                <View style={{ width: '100%', height: 100,  }}>
                                     <Image source={require('../assets/Rectangle49(2).png')} style={{ width: 150, height: 150, resizeMode: 'contain', alignSelf: 'center', marginTop: -25 }} />
 
                                 </View>
@@ -209,7 +209,7 @@ const Home = ({ navigation }) => {
 
                         <View style={{ width: '43%', height: 160, backgroundColor: 'white', borderRadius: 7, }}>
                             <TouchableOpacity>
-                                <View style={{ width: '100%', height: 100, backgroundColor: 'pink' }}>
+                                <View style={{ width: '100%', height: 100,  }}>
                                     <Image source={require('../assets/Rectangle49(3).png')} style={{ width: 150, height: 150, resizeMode: 'contain', alignSelf: 'center', marginTop: -25 }} />
 
                                 </View>
